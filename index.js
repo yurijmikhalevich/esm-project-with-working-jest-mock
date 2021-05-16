@@ -1,9 +1,9 @@
-const moduleA = require('./module-a');
+import { hello } from './module-a';
 
 const index = {
-  doThing: () => moduleA.hello()
+  doThing: () => hello()
 }
 
 console.log(index.doThing());
 
-module.exports = index;
+export default index;

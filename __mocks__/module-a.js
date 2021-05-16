@@ -1,3 +1,1 @@
-module.exports = {
-  hello: () => 'I am a mock!'
-};
+export function hello() { return 'I am a mock!'; }

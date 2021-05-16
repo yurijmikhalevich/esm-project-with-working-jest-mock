@@ -1,3 +1,1 @@
-module.exports = {
-  hello: () => 'I am a module!'
-};
+export function hello() { return 'I am a module!'; }
